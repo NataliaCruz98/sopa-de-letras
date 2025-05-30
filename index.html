@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Letras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SOPA DE LETRAS</h1>
+        
+        <div class="game-container">
+            <div class="grid-container">
+                <div id="letter-grid" class="letter-grid"></div>
+            </div>
+            
+            <div class="words-panel">
+                <h3>Palabras a encontrar:</h3>
+                <div id="words-list" class="words-list"></div>
+                <div class="score">
+                    <p>Palabras encontradas: <span id="found-count">0</span>/<span id="total-count">0</span></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <p>Haz clic y arrastra para seleccionar las palabras en cualquier dirección</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
